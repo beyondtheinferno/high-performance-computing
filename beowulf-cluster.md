@@ -4,8 +4,8 @@
 3. After installation, power off the virtual machine and do the following in each virtual machine
 
       Settings -> Network -> Check the "Enable Network Adaptor" option -> Select "Bridged Adaptor" and select the displayed name -> OK
-      
-4. Assign a static IP address to each virtual machine by - 
+4. Install ssh-server by using `sudo apt-get install openssh-server`
+5. Assign a static IP address to each virtual machine by - 
     - Run the following commands in terminal -
         - `ifconfig` -> gives the network name, address, netmask, network address(X.X.0.0) and broadcast address
         - `route -m` ->  gives the gateway address
@@ -23,7 +23,7 @@
     dns-nameservers {insert-dns-nameservers-address}
     ```
     - Save the file and restart your network 
-5. From home directory, open up hosts file using - 
+6. From home directory, open up hosts file using - 
 ```
 cd /etc
 sudo gedit hosts
