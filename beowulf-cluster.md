@@ -37,3 +37,6 @@ sudo gedit hosts
 .
 .
 ```
+7. In each node, create a new user named 'mpiuser' using `sudo adduser mpiuser` with the same password.
+8. Log into the new user created using `su - mpiuser`
+9. 
