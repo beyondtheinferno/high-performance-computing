@@ -1,5 +1,7 @@
 ## STEPS TO CREATE A BEOWULF CLUSTER -
 
+*(My Host PC OS - Windows. There shouldn't be much difference in other OS, that's what I hope.)*
+
 1. Install the latest version of Oracle VirtualBox
 
 2. Set up and install a stable Linux version (I used Ubuntu 16.04.4) in separate virtual machines (preferred 3-4)
